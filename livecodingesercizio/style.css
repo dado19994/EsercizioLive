@@ -1,0 +1,194 @@
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+h1, h2, h3, .h1, .h2, .h3{
+    font-family: "Roboto", sans-serif;
+}
+
+:root{
+    --ye: rgb(250, 234, 0);
+    --lb: rgb(52, 53, 53);
+    --w: rgb(247, 247, 247);
+}
+
+.text-ye{
+    color: var(--ye);
+}
+
+.text-w{
+    color: var(--w);
+}
+
+.text-lb{
+    color: var(--lb);
+}
+
+/* header */
+
+.header-custom{
+    height: 100vh;
+    background-image: url(./media\ progetto\ webina\ retrogaming/bg-1.jpg);
+    /* background-position: center;
+    background-size: cover; */
+    
+}
+
+.immagine1{
+    width: 600px;
+    
+}
+
+.custom-logo{
+    width: 110px;
+    height: 40px;
+ }
+
+ .textprincipal{
+    font-size: 60px;
+ }
+
+ .custom-subtitle{
+    font-size: 20px;
+ }
+
+ .custom-webinar{
+    font-size: 13px;
+ }
+
+ .custom-time{
+    font-size: 15px;
+ }
+
+ .custom-date{
+    font-size: 30px;
+ }
+
+ button{
+    width: 280px;
+    height:50px;
+    border-radius: 25px 25px;
+    border: solid 1px rgb(250, 234, 0);
+    background: url(save.png) no-repeat 10px #00000000;
+}
+
+.custom-textbutton{
+    font-size: 15px;
+}
+
+
+ /* Section 2 */
+ .section-2{
+    height: 80vh;
+    background-color: rgb(27, 21, 64);
+    
+ }
+
+ .immagineretro{
+    width: 450px;
+ }
+
+ .custom-iscriviti{
+    font-size: 35px;
+ }
+
+
+
+.form-select{
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgb(182, 37, 188);
+    border-top-color: #00000000;
+    border-left-color: #00000000;
+    border-right-color: #00000000;
+    
+}
+
+.form-select::placeholder{
+    color: var(--lb);
+}
+
+
+ 
+ /* Section 3 */
+ .section-3{
+    height: 100vh;
+    background-image: url(./media\ progetto\ webina\ retrogaming/bg-2.jpg);
+    background-position: center;
+    background-size: cover;
+ }
+
+ /* forme */
+
+ .custom-cerchio {
+    background: rgb(250, 234, 0);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    
+}
+
+
+ #rectangle {
+    width: 500px;
+    height: 700px;
+    background: rgb(27, 21, 64);
+    border-radius: 5% 5%;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+   /* button */
+
+.custom-boxbutton{
+    width: 480px;
+    height:50px;
+    border-radius: 25px 25px;
+    border: solid 1px rgb(250, 234, 0);
+    background: url(save.png) no-repeat 10px rgb(250, 234, 0);
+    
+}
+
+.form-control{
+    background-color: #00000000;
+    border-bottom-color: rgb(182, 37, 188);
+    border-top-color: #00000000;
+    border-left-color: #00000000;
+    border-right-color: #00000000;
+    
+}
+
+.form-control::placeholder{
+    color: var(--lb);
+}
+
+
+ /* Section 4 */
+
+.section-4{
+    height: 70vh;
+    background-color: rgb(20, 9, 37);
+}
+
+.immagine-logofuture{
+    width: 400px;
+    height: auto;
+}
+
+/* Section 5 */
+.section-5{
+    height: 100vh;
+    background-image: url(./media\ progetto\ webina\ retrogaming/bg-3.jpg);
+    background-position: center;
+    
+}
+
+.immagine-docente{
+    width: 400px;
+}
+
+/* footer */
+
+footer{
+    background-color: rgb(52, 52, 52);
+    
+}
